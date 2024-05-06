@@ -1,0 +1,15 @@
+NOTE TAKING
+==> HTML elements have opening tags like <h1> and closing tags like </h1>. The text an element will display goes between its opening and closing tags.
+
+==> The h1 through h6 heading elements are used to signify the importance of content below them. 
+    ==> <h1></h1> --> More important
+    ==> <h2></h2>
+    ==> <h3></h3>
+    ==> <h4></h4>
+    ==> <h5></h5>
+    ==> <h6></h6> --> Less Important
+==> As the number increases, the importance of the heading decreases
+==> The lower the number, the higher the importance, so h2 elements have less importance than h1 elements. 
+==> Only use one h1 element per page and place lower importance headings below higher importance headings.
+
+==> <p></p> element to create a paragraph of text in the websites.
