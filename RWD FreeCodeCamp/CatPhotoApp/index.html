@@ -73,7 +73,8 @@
         <section> <!--Third section start-->
             <h2>Cat Form</h2>
             <form action="https://freecatphotoapp.com/submit-cat-photo">
-                <input type="radio">Indoor
+                <label><input type="radio" id="indoor">Indoor</label>
+                <!--inserting the label will select the corresponding radio button-->
                 <input input="text" name="catphotourl" placeholder="cat photo url" required> 
                 <!--NOTE!
                 Must have the name attribute to 
@@ -86,7 +87,7 @@
                 -->
                 <button type="submit">Submit</button>
             </form>
-        </section> <!--Third section start-->
+        </section> <!--Third section end-->
     </main>
     
 </body>

@@ -94,7 +94,13 @@ NOTE TAKING
      ==> <button></button> buttons are clickable elements
 
 ==> HTML Radio button 📻
-    ==> radio buttons are same as input. 
-    To use the radio button:
-    <input type="radio">your value
-    remember <input> are self-closing tag
+     ==> radio buttons are same as input. 
+     To use the radio button:
+     <input type="radio">your value
+     remember <input> are self-closing tag
+
+==> what is label?
+     ==> label elements are used to associate the text for an input element with input element itself.
+     ==> for example:
+     <label><input type="radio"> cat</label>
+     ==> clicking the word cat also select the corresponding radio button
