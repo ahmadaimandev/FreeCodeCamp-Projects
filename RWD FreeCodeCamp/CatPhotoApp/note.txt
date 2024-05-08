@@ -49,3 +49,16 @@ NOTE TAKING
     ==> figure element is represent self-contained content and will allow to associate an image,
         illustration and diagrams with a caption
 
+==> HTML figcaption tag 🕶
+    ==> <figcaption></figcaption> element is used to add caption to describe the image contained
+        within the figure element
+        Example:
+        <figure>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
+          <figcaption>Cats love lasagna</figcaption>
+        </figure>
+    ==> after the image nested in the <figure></figure> element, add a <figcaption></figcaption> element
+
+==> figure vs. figcaption (differences)
+     ==> figure is group elements content
+     ==> meanwhile the figcaption is an elements that provide caption or explanation for that content
