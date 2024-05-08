@@ -104,3 +104,6 @@ NOTE TAKING
      ==> for example:
      <label><input type="radio"> cat</label>
      ==> clicking the word cat also select the corresponding radio button
+
+==> What is id attribute?
+    ==> id attribute is unique attribute value and it must be unique from all other values.
