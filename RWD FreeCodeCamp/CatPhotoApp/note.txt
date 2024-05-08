@@ -38,3 +38,8 @@ NOTE TAKING
 
 ==> HTML section 📐
 ==> main purpose of the <section></section> is to seperate the content
+
+==> HTML list tag
+==> two type of list. unordered and ordered
+==> use <ul></ul> for unordered list
+==> use <ol></ol> for ordered list
