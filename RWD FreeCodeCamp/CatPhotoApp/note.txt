@@ -13,4 +13,5 @@ NOTE TAKING
 ==> Only use one h1 element per page and place lower importance headings below higher importance headings.
 
 ==> <p></p> element to create a paragraph of text in the websites.
-==> Use <main></main> to define the main content area of a webpage
+==> Use <main></main> to define the main content area of a webpage.
+==> <img> use this tag to add image. img tag is self closing tag.
