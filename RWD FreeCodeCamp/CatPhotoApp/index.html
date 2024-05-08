@@ -73,12 +73,18 @@
         <section> <!--Third section start-->
             <h2>Cat Form</h2>
             <form action="https://freecatphotoapp.com/submit-cat-photo">
-                <input input="text" name="catphotourl" placeholder="cat photo url"> 
-                <!--Must have the name attribute to 
+                <input type="radio">Indoor
+                <input input="text" name="catphotourl" placeholder="cat photo url" required> 
+                <!--NOTE!
+                Must have the name attribute to 
                 represent the data being submitted 
                 
                 The placeholder will give a hint about what kind of information to enter
+
+                required attribute prevent user from submitting the form when important information 
+                is missing
                 -->
+                <button type="submit">Submit</button>
             </form>
         </section> <!--Third section start-->
     </main>

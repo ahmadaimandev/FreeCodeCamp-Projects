@@ -60,8 +60,8 @@ NOTE TAKING
     ==> after the image nested in the <figure></figure> element, add a <figcaption></figcaption> element
 
 ==> figure vs. figcaption (differences) ⚡
-     ==> figure is group elements content
-     ==> meanwhile the figcaption is an elements that provide caption or explanation for that content
+    ==> figure is group elements content
+    ==> meanwhile the figcaption is an elements that provide caption or explanation for that content
 
 ==> HTML Form element 📑
      ==> use <form></form> to create form
@@ -87,3 +87,14 @@ NOTE TAKING
 
      ==> The placeholder attribute will give a hint to people about what kind of information to enter
       into an input
+
+     ==> required attribute prevent user from submitting the form. There's no need to set the value
+
+==> HTML Button 🔘
+     ==> <button></button> buttons are clickable elements
+
+==> HTML Radio button 📻
+    ==> radio buttons are same as input. 
+    To use the radio button:
+    <input type="radio">your value
+    remember <input> are self-closing tag
