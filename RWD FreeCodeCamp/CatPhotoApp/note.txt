@@ -38,7 +38,7 @@ NOTE TAKING
     ==> Example: <a href="link" target="_blank"></a>
 
 ==> HTML section 📐
-    ==> main purpose of the <section></section> is to seperate the content
+    ==> main purpose of the <section></section> is to separate the content
 
 ==> HTML list tag 📃
     ==> two type of list. unordered and ordered
