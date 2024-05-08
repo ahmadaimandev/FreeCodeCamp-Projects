@@ -59,6 +59,31 @@ NOTE TAKING
         </figure>
     ==> after the image nested in the <figure></figure> element, add a <figcaption></figcaption> element
 
-==> figure vs. figcaption (differences)
+==> figure vs. figcaption (differences) ⚡
      ==> figure is group elements content
      ==> meanwhile the figcaption is an elements that provide caption or explanation for that content
+
+==> HTML Form element 📑
+     ==> use <form></form> to create form
+     ==> inside the form element, there's an attribute call action. this indicates where form data
+     should be sent.
+     example: 
+     <form action="/submit-url">
+      it will tells the browser that the form data should be send to the path of /submit-url
+     </form>
+
+     ==> inside form, there are several ways to collect the data by using the <input> elements.
+     <input> elements are self closing tag same like <img>
+     ==> There are many kinds of input that you can create by using the type
+     for example:
+     <input type="text"> --> store text
+     <input type="password"> --> store password
+     <input type="reset"> --> reset button
+     <input type="file"> --> user can select file from computer
+
+     ==> There's a attribute called name. This represent the data being submitted.
+      for example:
+      <input type="text" name="email">
+
+     ==> The placeholder attribute will give a hint to people about what kind of information to enter
+      into an input
