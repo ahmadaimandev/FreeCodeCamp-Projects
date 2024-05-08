@@ -73,11 +73,12 @@
         <section> <!--Third section start-->
             <h2>Cat Form</h2>
             <form action="https://freecatphotoapp.com/submit-cat-photo">
-                <label><input type="radio" id="indoor">Indoor</label>
-                <label><input type="radio" id="outdoor">Outdoor</label>
+                <label><input type="radio" id="indoor" name="indoor-outdoor">Indoor</label>
+                <!--both radio button can be selected at the same time. To prevent this, add name-->
+                <label><input type="radio" id="outdoor" name="indoor-outdoor">Outdoor</label>
                 <!--
-                inserting the label will select the corresponding radio button
-                id attribute are unique. It use to identify specific html elements
+                1. inserting the label will select the corresponding radio button
+                2. id attribute are unique. It use to identify specific html elements
                 -->
                 <input input="text" name="catphotourl" placeholder="cat photo url" required> 
                 <!--NOTE!
