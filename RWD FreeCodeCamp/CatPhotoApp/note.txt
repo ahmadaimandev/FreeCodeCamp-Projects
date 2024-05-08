@@ -35,3 +35,6 @@ NOTE TAKING
 ==> what is target attribute? 🎯
 ==> By including the target attribute inside anchor element, it will opens a new tab
 ==> Examplae: <a href="link" target="_blank"></a>
+
+==> HTML section 📐
+==> main purpose of the <section></section> is to seperate the content
