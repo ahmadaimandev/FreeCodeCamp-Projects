@@ -14,4 +14,16 @@ NOTE TAKING
 
 ==> <p></p> element to create a paragraph of text in the websites.
 ==> Use <main></main> to define the main content area of a webpage.
+
 ==> <img> use this tag to add image. img tag is self closing tag.
+==> <img src="Source of the image" alt="attribute to display text on the screen">
+==> alt attribute to improve screen reader accessibility and display if the image fail to load
+
+==> how to link another pages?
+==> use anchor tag (a)
+==> for example: <a href='https://freecodecamp.org'>put text inside here</a>
+==> the link text must be placed between opening and closing tags
+
+==> Fun Fact ⚡
+==> You can change the text into link. For example the text inside the <p></p> element
+<p>I think <a href="https://www.freecodecamp.org">freeCodeCamp</a> is great.</p>
