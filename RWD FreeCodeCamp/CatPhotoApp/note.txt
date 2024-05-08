@@ -1,5 +1,6 @@
 NOTE TAKING
-==> HTML elements have opening tags like <h1> and closing tags like </h1>. The text an element will display goes between its opening and closing tags.
+==> HTML elements have opening tags like <h1> and closing tags like </h1>. 
+    The text an element will display goes between its opening and closing tags.
 
 ==> HTML tag 🔢
 ==> The h1 through h6 heading elements are used to signify the importance of content below them. 
@@ -10,36 +11,41 @@ NOTE TAKING
     ==> <h5></h5>
     ==> <h6></h6> --> Less Important
 ==> As the number increases, the importance of the heading decreases
-==> The lower the number, the higher the importance, so h2 elements have less importance than h1 elements. 
-==> Only use one h1 element per page and place lower importance headings below higher importance headings.
+    ==> The lower the number, the higher the importance, so h2 elements have less importance than h1 elements. 
+    ==> Only use one h1 element per page and place lower importance headings below higher importance headings.
 
 ==> HTML paragraph element 📝
-==> <p></p> element to create a paragraph of text in the websites.
-==> Use <main></main> to define the main content area of a webpage.
+    ==> <p></p> element to create a paragraph of text in the websites.
+    ==> Use <main></main> to define the main content area of a webpage.
 
 ==> HTML image tag 🗻
-==> <img> use this tag to add image. img tag is self closing tag.
-==> <img src="Source of the image" alt="attribute to display text on the screen">
-==> alt attribute to improve screen reader accessibility and display if the image fail to load
-==> image can turn into link by wrapping it inside the anchor tag
+    ==> <img> use this tag to add image. img tag is self closing tag.
+    ==> <img src="Source of the image" alt="attribute to display text on the screen">
+    ==> alt attribute to improve screen reader accessibility and display if the image fail to load
+    ==> image can turn into link by wrapping it inside the anchor tag
 
-==> how to link another pages?📃
-==> use anchor tag (a)
-==> for example: <a href='https://freecodecamp.org'>put text inside here</a>
-==> the link text must be placed between opening and closing tags
+==> how to link another pages? 📖
+    ==> use anchor tag (a)
+    ==> for example: <a href='https://freecodecamp.org'>put text inside here</a>
+    ==> the link text must be placed between opening and closing tags
 
 ==> Fun Fact ⚡
-==> You can change the text into link. For example the text inside the <p></p> element
-<p>I think <a href="https://www.freecodecamp.org">freeCodeCamp</a> is great.</p>
+    ==> You can change the text into link. For example the text inside the <p></p> element
+    ==> for example: <p>I think <a href="https://www.freecodecamp.org">freeCodeCamp</a> is great.</p>
 
 ==> what is target attribute? 🎯
-==> By including the target attribute inside anchor element, it will opens a new tab
-==> Examplae: <a href="link" target="_blank"></a>
+    ==> By including the target attribute inside anchor element, it will opens a new tab
+    ==> Example: <a href="link" target="_blank"></a>
 
 ==> HTML section 📐
-==> main purpose of the <section></section> is to seperate the content
+    ==> main purpose of the <section></section> is to seperate the content
 
-==> HTML list tag
-==> two type of list. unordered and ordered
-==> use <ul></ul> for unordered list
-==> use <ol></ol> for ordered list
+==> HTML list tag 📃
+    ==> two type of list. unordered and ordered
+    ==> use <ul></ul> for unordered list
+    ==> use <ol></ol> for ordered list
+
+==> HTML figure tag 👓
+    ==> figure element is represent self-contained content and will allow to associate an image,
+        illustration and diagrams with a caption
+
