@@ -17,3 +17,6 @@ value = center
 ==> id element for CSS
     ==> id selector is to target specific element with an id attribute.
     ==> id selector is defined by hash (#) symbol
+
+==> comment in CSS
+    ==> to comment out code in css, /*your comment in here*/
