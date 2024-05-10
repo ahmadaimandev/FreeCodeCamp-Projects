@@ -80,6 +80,7 @@ NOTE TAKING
      <input type="password"> --> store password
      <input type="reset"> --> reset button
      <input type="file"> --> user can select file from computer
+     <input type="checkbox"> --> commonly use for question that more than one
 
      ==> There's a attribute called name. This represent the data being submitted.
       for example:
