@@ -17,7 +17,8 @@
         -->
 
         <!--section tag to separates content-->
-        <section> <!--First section start-->
+        <!--First section start-->
+        <section> 
             <h2>Cat Photos</h2>
     
         <!--NOTE: p element to create paragraph in websites-->
@@ -35,9 +36,11 @@
             alt="A cute orange cat lying on its back">
             <!--Turn an image into link by wrap it inside the anchor tag-->
         </a>
-        </section> <!--First section end-->
+        </section> 
+        <!--First section end-->
 
-        <section> <!--Second section start-->
+        <!--Second section start-->
+        <section>
             <h2>Cat Lists</h2>
             <!--
                 When add a lower rank heading to the element, it's implied that 
@@ -68,20 +71,30 @@
                 <figcaption>Cats <strong>hate</strong> other cats.</figcaption>
                 <!--strong element used to indicate text is important or urgent-->
             </figure>
-        </section> <!--Second section end-->
+        </section>
+        <!--Second section end-->
 
-        <section> <!--Third section start-->
+        <!--Third section start-->
+        <section> 
             <h2>Cat Form</h2>
             <form action="https://freecatphotoapp.com/submit-cat-photo">
-                <label><input type="radio" id="indoor" name="indoor-outdoor">Indoor</label>
-                <!--both radio button can be selected at the same time. To prevent this, add name-->
-                <label><input type="radio" id="outdoor" name="indoor-outdoor">Outdoor</label>
+                <fieldset>
+                <label><input type="radio" id="indoor" name="indoor-outdoor" value="indoor">Indoor</label>
+                <!--
+                both radio button can be selected at the same time.
+                To prevent this, add name
+
+                add the value same as id so it can set the value.
+                -->
+                <label><input type="radio" id="outdoor" name="indoor-outdoor" value="outdoor">Outdoor</label>
                 <!--
                 1. inserting the label will select the corresponding radio button
                 2. id attribute are unique. It use to identify specific html elements
                 -->
+                </fieldset>
                 <input input="text" name="catphotourl" placeholder="cat photo url" required> 
-                <!--NOTE!
+                <!--
+                NOTE!
                 Must have the name attribute to 
                 represent the data being submitted 
                 
@@ -92,7 +105,8 @@
                 -->
                 <button type="submit">Submit</button>
             </form>
-        </section> <!--Third section end-->
+        </section>
+        <!--Third section end-->
     </main>
     
 </body>

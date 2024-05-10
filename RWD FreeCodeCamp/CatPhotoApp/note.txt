@@ -107,3 +107,7 @@ NOTE TAKING
 
 ==> What is id attribute?
     ==> id attribute is unique attribute value and it must be unique from all other values.
+
+==> What is fieldset?
+    ==>fieldset is element used to group related inputs and labels together in web form.
+    ==> fieldset are block-level elements. in other words, they appear on a new line.
