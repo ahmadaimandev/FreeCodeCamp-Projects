@@ -1,9 +1,18 @@
+=================================================HTML NOTES=========================================================
 ==> HTML element represent root element which contain all other elements.
 ==> title elements not visible on web page but useful for search engine.
 
 ==> by inserting utf=8 inside the meta element, it tell browser how to encode characters for the page.
 
-===============================================HOW TO WRITE CSS CODES==========================================
+==> What is article in html?
+    ==> article is an element commonly use to contain multiple elements that have related information.
+    ==> it helps to structure the webpage in semantic way.
+
+==> p element
+    ==> p elements are block-level elements.
+    ==> It takes up the entire width of their parent element.
+
+==================================================CSS NOTES==============================================================
  element {
     property: value;
  }

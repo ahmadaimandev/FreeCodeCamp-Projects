@@ -18,3 +18,11 @@ p {
     */
     margin-right: auto;
 }
+
+.flavor {
+    text-align: left;
+}
+
+.price {
+    text-align: right;
+}
