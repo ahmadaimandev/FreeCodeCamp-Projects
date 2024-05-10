@@ -1,0 +1,12 @@
+==> HTML element represent root element which contain all other elements.
+==> title elements not visible on web page but useful for search engine.
+
+==> by inserting utf=8 inside the meta element, it tell browser how to encode characters for the page.
+
+===============================================HOW TO WRITE CSS CODES==========================================
+ element {
+    property: value;
+ }
+element = h1
+property = text-align
+value = center
