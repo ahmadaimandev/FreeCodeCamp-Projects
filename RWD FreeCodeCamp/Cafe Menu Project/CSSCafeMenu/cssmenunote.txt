@@ -10,3 +10,10 @@
 element = h1
 property = text-align
 value = center
+
+==> What is div element?
+    ==> div element are used for mainly design layout purposes.
+
+==> id element for CSS
+    ==> id selector is to target specific element with an id attribute.
+    ==> id selector is defined by hash (#) symbol
