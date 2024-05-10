@@ -39,3 +39,8 @@ value = center
     .class-name {
       styles
     }
+
+==> What is padding?
+    ==> padding is space between content of an HTML element and it's border
+    ==> It allows you to control the amount of space inside the element.
+    ==> It also give your content some breathing room and helping you achive the desired layout.

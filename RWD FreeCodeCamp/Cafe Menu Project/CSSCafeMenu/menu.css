@@ -17,6 +17,8 @@ p {
     it will goes to center horizontally. 
     */
     margin-right: auto;
+    padding: 20px;
+    /*By adding padding, it will create some space between the content and the border/sides*/
 }
 
 .flavor, .dessert {
