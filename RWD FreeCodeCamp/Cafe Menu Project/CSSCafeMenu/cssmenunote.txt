@@ -14,9 +14,19 @@ value = center
 ==> What is div element?
     ==> div element are used for mainly design layout purposes.
 
-==> id element for CSS
+==> id selector CSS
     ==> id selector is to target specific element with an id attribute.
     ==> id selector is defined by hash (#) symbol
 
 ==> comment in CSS
     ==> to comment out code in css, /*your comment in here*/
+
+==> What is margin in CSS?
+    ==> margin is like invisible space around an element
+
+==> class selector for CSS
+    ==>A class selector is defined by a name with a dot directly in front of it.
+    ==> example: 
+    .class-name {
+      styles
+    }
