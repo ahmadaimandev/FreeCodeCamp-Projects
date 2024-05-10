@@ -116,3 +116,7 @@ NOTE TAKING
 ==> What is legend element?
      ==> legend element act as caption for the content in fieldset.
      ==> it gives context about what should they enter into part of the form.
+
+==> What is for element?
+     ==> for element is used to associate an input element with the text in the element itself.
+     ==> In layman term, we can set for element value same as id attribute.
