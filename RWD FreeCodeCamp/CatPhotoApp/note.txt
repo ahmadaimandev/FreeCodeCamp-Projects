@@ -111,3 +111,7 @@ NOTE TAKING
 ==> What is fieldset?
     ==>fieldset is element used to group related inputs and labels together in web form.
     ==> fieldset are block-level elements. in other words, they appear on a new line.
+
+==> What is legend element?
+     ==> legend element act as caption for the content in fieldset.
+     ==> it gives context about what should they enter into part of the form.
