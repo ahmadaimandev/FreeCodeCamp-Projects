@@ -83,3 +83,13 @@ a {
 a:visited {
     color: grey;
 }
+
+/*Using this pseudo-selector to change the color when its hover*/
+a:hover {
+    color: brown; 
+}
+
+/*Using this pseudo-selector to change the color when it click*/
+a:active {
+    color: white; 
+}
