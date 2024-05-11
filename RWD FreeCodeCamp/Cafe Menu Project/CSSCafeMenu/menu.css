@@ -27,6 +27,14 @@ h2 {
     font-family: impact, serif;
 }
 
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
 .flavor, .dessert {
     text-align: left;
     width: 75%;
