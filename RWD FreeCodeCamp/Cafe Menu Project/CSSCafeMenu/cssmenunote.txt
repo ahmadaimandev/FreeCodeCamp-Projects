@@ -44,3 +44,9 @@ value = center
     ==> padding is space between content of an HTML element and it's border
     ==> It allows you to control the amount of space inside the element.
     ==> It also give your content some breathing room and helping you achive the desired layout.
+
+==> font-family in css
+     ==> font-family is a way to use different font while build the website.
+     ==> there's a value call fallback in font-family. fallback are use in instances where the 
+         initial is not found/available.
+     ==> to use fallback value in font-family just by adding another font name seperated by a comma.

@@ -24,7 +24,7 @@ p {
 
 h1,
 h2 {
-    font-family: impact;
+    font-family: impact, serif;
 }
 
 .flavor, .dessert {
@@ -40,4 +40,8 @@ h2 {
 .item p {
     display: inline-block;
     /*By adding this value, the p elements will behave more like inline elements*/
+}
+
+.established {
+    font-style: italic;
 }
