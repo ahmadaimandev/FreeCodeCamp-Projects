@@ -92,3 +92,4 @@ a:hover {
 /*Using this pseudo-selector to change the color when it click*/
 a:active {
     color: brown;
+}
