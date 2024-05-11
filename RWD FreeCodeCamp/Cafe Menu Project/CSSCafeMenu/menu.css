@@ -81,7 +81,7 @@ a {
 
 /*By using this pseudo-selector, we can change the properties of the link when has been visited*/
 a:visited {
-    color: grey;
+    color: black;
 }
 
 /*Using this pseudo-selector to change the color when its hover*/
@@ -91,5 +91,4 @@ a:hover {
 
 /*Using this pseudo-selector to change the color when it click*/
 a:active {
-    color: white; 
-}
+    color: brown;
