@@ -32,6 +32,7 @@ value = center
 
 ==> What is margin in CSS?
     ==> margin is like invisible space around an element
+    ==> It create space around the element border
 
 ==> class selector for CSS
     ==>A class selector is defined by a name with a dot directly in front of it.
@@ -53,3 +54,7 @@ value = center
 
 == How to make horizontal line?
      ==> use <hr> tag. remember, this tag is self-closing tag.
+
+==> Link color
+     ==> default color for link that not been click on is typically blue.
+     ==> If it has already been visited, it will change to purple

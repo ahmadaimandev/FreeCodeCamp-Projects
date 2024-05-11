@@ -11,6 +11,7 @@ p {
 }
 
 .menu {
+    width: 80%;
     max-width: 500px; /*Adding this value to prevent it from growing too wide*/
     background-color: burlywood;
     margin-left: auto;
@@ -52,14 +53,33 @@ h2 {
     margin-bottom: 5px;
     /*Adding this two margin to fix the large gap between items and prices*/
     margin-top: 5px;
+    font-size: 18px;
 }
 
 .established {
     font-style: italic;
 }
 
+.bottom-line {
+    margin-top: 25px;
+}
+
 hr {
     height: 2px;
     background-color: brown;
     border-color: brown; /*This tag allows use to change the border color*/
+}
+
+/*Footer*/
+footer {
+    font-size: 14px;
+}
+
+a {
+    color: black;
+}
+
+/*By using this pseudo-selector, we can change the properties of the link when has been visited*/
+a:visited {
+    color: grey;
 }
