@@ -1,6 +1,7 @@
 body {
     background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
     font-family: sans-serif;
+    padding: 20px;
 }
 
 h1,
@@ -10,7 +11,7 @@ p {
 }
 
 .menu {
-    max-width: 500px;
+    max-width: 500px; /*Adding this value to prevent it from growing too wide*/
     background-color: burlywood;
     margin-left: auto;
     /*
@@ -48,8 +49,17 @@ h2 {
 .item p {
     display: inline-block;
     /*By adding this value, the p elements will behave more like inline elements*/
+    margin-bottom: 5px;
+    /*Adding this two margin to fix the large gap between items and prices*/
+    margin-top: 5px;
 }
 
 .established {
     font-style: italic;
+}
+
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown; /*This tag allows use to change the border color*/
 }

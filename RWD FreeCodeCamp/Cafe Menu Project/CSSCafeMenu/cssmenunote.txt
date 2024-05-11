@@ -50,3 +50,6 @@ value = center
      ==> there's a value call fallback in font-family. fallback are use in instances where the 
          initial is not found/available.
      ==> to use fallback value in font-family just by adding another font name seperated by a comma.
+
+== How to make horizontal line?
+     ==> use <hr> tag. remember, this tag is self-closing tag.
