@@ -10,6 +10,15 @@ p {
     text-align: center;
 }
 
+img {
+    display: block;
+    margin-left: auto;
+    /*Adding both of this make the img center horizontally*/
+    margin-right: auto;
+    margin-top: -25px; /*Negative value will pull the elements up from their positions*/
+
+}
+
 .menu {
     width: 80%;
     max-width: 500px; /*Adding this value to prevent it from growing too wide*/
@@ -31,6 +40,10 @@ h2 {
 
 h1 {
     font-size: 40px;
+    /*By adding this, it will remote all the top margin that have been set default
+    by browser*/
+    margin-top: 0; 
+    margin-bottom: 15px; /*To remove vertical spaces between h1 element and the text Est. 2020*/
 }
 
 h2 {
@@ -62,6 +75,10 @@ h2 {
 
 .bottom-line {
     margin-top: 25px;
+}
+
+.address {
+    margin-bottom: 5px;
 }
 
 hr {
