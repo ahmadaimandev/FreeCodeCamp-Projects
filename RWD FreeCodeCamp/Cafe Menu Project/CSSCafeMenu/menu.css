@@ -1,5 +1,6 @@
 body {
     background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: sans-serif;
 }
 
 h1,
@@ -9,7 +10,7 @@ p {
 }
 
 .menu {
-    width: 80%;
+    max-width: 500px;
     background-color: burlywood;
     margin-left: auto;
     /*
@@ -19,6 +20,11 @@ p {
     margin-right: auto;
     padding: 20px;
     /*By adding padding, it will create some space between the content and the border/sides*/
+}
+
+h1,
+h2 {
+    font-family: impact;
 }
 
 .flavor, .dessert {
