@@ -5,6 +5,40 @@ body {
     margin: 0;
 }
 
+.links {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.links ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.links ul li:last-child {
+    margin-right: 0;
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    transition: color 0.3s ease;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.links ul li a:hover {
+    color: #ff5100;
+    /* Change color on hover */
+    cursor: pointer;
+}
+
 .menu-list {
     max-width: 800px;
     margin: 0 auto;
@@ -33,6 +67,19 @@ hr {
     margin-bottom: 20px;
 }
 
+.item-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.price {
+    margin-top: 10px;
+}
+
+.item-content .price .item-content .order-button {
+    align-self: flex-start;
+}
+
 .food-tag {
     color: #333;
     font-size: 28px;
@@ -51,6 +98,11 @@ hr {
     margin-right: 20px;
     border-radius: 10%;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.2s;
+}
+
+img:hover {
+    transform: scale(1.2);
 }
 
 .item-content {
@@ -88,7 +140,7 @@ footer {
     color: #666;
 }
 
-.company-address {
+.company-address {  
     margin-bottom: 0;
     font-size: 16px;
 }
@@ -100,4 +152,13 @@ a {
 
 a:hover {
     color: brown;
+}
+
+button {
+    width: 100px;
+    margin-left: auto;
+    border: none;
+    height: 20px;
+    color: rgb(255, 255, 255);
+    background-color: #7e1111;
 }
