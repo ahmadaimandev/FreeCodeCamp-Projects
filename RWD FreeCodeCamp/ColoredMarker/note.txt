@@ -1,0 +1,7 @@
+==> Margin
+    ==> margin: <top/bottom> <left/right>
+    example:
+    margin: 10px 20px;
+    explain:
+    margin-top and margin-bottom: 10px
+    margin-left and margin right: 20px
