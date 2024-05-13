@@ -11,3 +11,13 @@
      seperating them with a space.
      example:
      <div class="animal dog"></div>
+
+==> Colors
+     ==> There are two main color models:
+     1. additive RGB (red, green, blue) - used in electronic devices
+     2. subtractive CMYK (cyan, magenta, yellow, black) - model  used in print
+
+     ==> During this tutorial, we work with RGB model. This mean color begin as black, and
+     change as different levels of red, gree, and blue are introduced.
+
+     
