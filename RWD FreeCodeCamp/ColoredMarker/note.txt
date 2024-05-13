@@ -6,6 +6,14 @@
      margin-top and margin-bottom: 10px
      margin-left and margin right: 20px
 
+==> Padding
+    ==> padding: <top/bottom> <left/right>
+     example:
+     padding: 10px 20px;
+     explain:
+     padding-top and padding-bottom: 10px
+     padding-left and padding-right: 20px
+
 ==> Multiple Classes
      ==> Multiple classes can be added to an element by listing them in the class attribute and
      seperating them with a space.
@@ -15,9 +23,15 @@
 ==> Colors
      ==> There are two main color models:
      1. additive RGB (red, green, blue) - used in electronic devices
+       - In additive RGB color model, primary colors are color that, when combined, create pure white.
+       - But for this to happen, each color needs to be at its highest intensity.
+       
      2. subtractive CMYK (cyan, magenta, yellow, black) - model  used in print
 
      ==> During this tutorial, we work with RGB model. This mean color begin as black, and
      change as different levels of red, gree, and blue are introduced.
 
-     
+     ==> RGB function accepts values, or arguments, for red, green and blue and produces a color.
+     ==> Each red, gree, and blue value is a number from 0 --> 255
+        ==> 0 mean there's 0% of that color and its black
+        ==> 255 means there's 100% of that color.
