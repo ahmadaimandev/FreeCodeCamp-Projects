@@ -9,6 +9,7 @@ h1 {
 
 .red {
     background: linear-gradient(180deg, rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+    box-shadow: -5px -5px red;
     /*
     Color turn to orange because
     the intensity of red have increase and the green intensity is decreased
@@ -17,6 +18,7 @@ h1 {
 
 .green {
     background: linear-gradient(180deg, #55680D, #71F53E, #116C31);
+    box-shadow: 5px 5px 5px green;
 }
 
 .blue {
