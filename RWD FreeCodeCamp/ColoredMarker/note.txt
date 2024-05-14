@@ -86,3 +86,7 @@
       ==> They are lenght unit like px or percentage that allows a color in the linear-gradient function.
       example:
       background: linear-gradient(90deg,  rgb(255, 0, 0) 75%, rgb(0, 255, 0), rgb(0, 0, 255));
+
+==> Quick Facts!
+     ==> if no gradientDirection argument is provided to the linear-gradient function, it arranges colors
+     from top to bottom or along 180 degree line by default
