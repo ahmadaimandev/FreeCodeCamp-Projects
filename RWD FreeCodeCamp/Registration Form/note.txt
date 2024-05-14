@@ -1,6 +1,8 @@
 ==> vh unit
      ==> vh or viewport height is equal to 1% of the height of the viewport. This makes it relative
      to the viewport height.
+==> rem unit
+     ==> rem unit stands for root em and is relative to the font size of the html element.
 
 ==> Understand the form element
      ==> <form method="POST" action="some link"></form>
