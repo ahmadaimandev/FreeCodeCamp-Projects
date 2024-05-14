@@ -75,4 +75,4 @@
       background property which can accept an image as a value.
 
 => How to use linear-gradient function ?
-      ==>
+      ==> 
