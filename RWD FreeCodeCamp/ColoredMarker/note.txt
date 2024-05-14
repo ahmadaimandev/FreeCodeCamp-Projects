@@ -69,3 +69,7 @@
       ==> a number from 0 --> 360 for hue.
       ==> a percentage from 0 --> 100 for saturation.
       ==> a percentage from 0 --> 100 for lightness.
+
+      ==> Gradient function let's you control the direction of the transition along a line, and which colors are used.
+      ==> linear-gradient function actually creates an image element. and usually it paired with
+      background property which can accept an image as a value.
