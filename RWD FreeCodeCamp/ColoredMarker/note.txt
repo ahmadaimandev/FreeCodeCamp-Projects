@@ -102,5 +102,10 @@
       --> rgba(redValue, greenValue, blueValue, alphaValue)
 
 ==> Box Shadow
+      ==> The box-shadow property allows you to apply one or more shadows around an element
+      ==> Syntax: box-shadow: offsetX offsetY color;
+      * Both offsetX and offsetY accepts number values in px and other css units.
+      * A positive offsetX values moves the shadow right and a negative values move to left.
+      * A positive offsetY values moves the shadow down and negative moves up.
       ==> 
 
