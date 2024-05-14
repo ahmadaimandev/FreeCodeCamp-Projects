@@ -90,3 +90,12 @@
 ==> Quick Facts!
      ==> if no gradientDirection argument is provided to the linear-gradient function, it arranges colors
      from top to bottom or along 180 degree line by default
+
+==> Opacity
+      ==> opacity describes how opaque or non-transparent something is.
+      ==> Another way to set the opacity for an element is with the alpha channel. It similar to opacity
+      property. the alpha channel controls how transparent or opaque a color is
+      example:
+      A solid wall is opaque (not transparent) and no lights can pass through
+      A drinking glass is much more transparent and you can see through the glass and to other side
+
