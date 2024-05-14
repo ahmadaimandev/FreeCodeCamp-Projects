@@ -25,8 +25,20 @@
         </fieldset>
         <!--First fieldset end-->
 
+        <!--Second fieldset start-->
+        <fieldset>
+            <legend>Account type (required)</legend>
+            <!--Without legend element, user allowed to submit the form without checking the radio button.
+            so by adding this legend element it will solve the problem-->
+            <label for="personal-account"><input type="radio" name="account-type" id="personal-account" checked> Personal</label>
+            <!--adding the space can improve readability and make the HTML structure clearer-->
+            <label for="business-account"><input type="radio" name="account-type" id="business-account"> Business</label>
+        </fieldset>
+        <!--Second fieldset end-->
+
+        <!--Third fieldset start-->
         <fieldset></fieldset>
-        <fieldset></fieldset>
+        <!--Third fieldset end-->
         <input type="Submit" value="Submit">
     </form>
     <!--Form End-->
