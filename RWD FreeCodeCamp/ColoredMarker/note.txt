@@ -98,4 +98,6 @@
       example:
       A solid wall is opaque (not transparent) and no lights can pass through
       A drinking glass is much more transparent and you can see through the glass and to other side
+      ==> To use the alpha channel: 
+      --> rgba(redValue, greenValue, blueValue, alphaValue)
 
