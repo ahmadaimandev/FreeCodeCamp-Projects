@@ -54,4 +54,12 @@
       ==> A very common way is by apply the color with hexadecimal or hex values.
       ==> Seems complicated. but it's just another form of RGB values.
       ==> Hex color starts with (#) character and take six characters from 0-9 and A-F.
-      
+      The first pair of characters represent red, the second pair is green and the third is blue
+      For example: #00FF00
+      Explaination:
+      --> 00 is 0% of that color
+      --> FF is 100% 
+      --> Translates: 0% red, 100% green and 0% blue == rgb(0, 255, 0)
+
+      Base 10 / Decimal Value = 0 --> 9
+      Base 16 / Hexadecimal Value = 0 --> then A --> F
