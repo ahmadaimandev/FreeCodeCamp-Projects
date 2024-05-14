@@ -1,3 +1,10 @@
 ==> vh unit
      ==> vh or viewport height is equal to 1% of the height of the viewport. This makes it relative
      to the viewport height.
+
+==> Understand the form element
+     ==> <form method="POST" action="some link"></form>
+     --> action atrribute is define the actions to be performed when the perform is submitted
+     --> method attribute specifies how to send form-data to the URL specified in action attribute.
+     --> The form data can be send via GET request as URL parameters (with method="get") or
+     via a POST request as data in the request body (with method="post").
