@@ -10,3 +10,8 @@
      --> method attribute specifies how to send form-data to the URL specified in action attribute.
      --> The form data can be send via GET request as URL parameters (with method="get") or
      via a POST request as data in the request body (with method="post").
+
+==> Dropdown
+      ==> Adding a dropdown to the form is easy with the select element.
+      ==> select element is container for a group of option elements and the option elements
+      act as a label for each dropdown option. both require closing tag.
