@@ -31,3 +31,6 @@
 ==> Tips
       ==> Is a good practice to provide each submittable elements with a name attribute. 
       ==> This attribute is used to identify the elements in the form submission.
+
+==> element:last-of-type{}
+      ==> this pseudo-class allow you to select the last element of a specific type.
