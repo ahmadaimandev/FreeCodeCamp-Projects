@@ -20,3 +20,9 @@
       ==> each option needs to given value attribute
       example:
       <option value="1">This is option one</option>
+
+==> Textarea
+      ==> textarea elements act like input element of type text. 
+      ==> it comes with added benefit if being able to receive multi-line of text and 
+      initial number of text-rows and colomns
+      ==> textarea require closing tags 
