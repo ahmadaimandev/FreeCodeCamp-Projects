@@ -3,9 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/Certificate Project/survey-form/style.css">
+    <title>Survey Form</title>
 </head>
 <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help use improve the platform</p>
+
+    <!--Survey form start-->
+    <div class="form-background">
+        <form action="#" id="survey-form">
+            <!--First fieldset start-->
+            <fieldset>
+                <label for="name">Name <input type="text" id="name" name="user-name" placeholder="Enter your name" required></label>
+                <label for="email">Email <input type="email" id="email" name="user-email" placeholder="Enter your emai" required></label>
+                <label for="age">Age (optional) <input type="number" min="13" max="120" id="age" name="user-age" placeholder="Age"></label>
+                <label for="role-dropdown">Which option best describes your current role?
+                    <select id="role-dropdown" name="userRole-dropdown">
+                        <option value="">(Select your current role)</option>
+                        <option value="1">Student</option>
+                        <option value="2">Fulltime job</option>
+                        <option value="3">Fulltime learner</option>
+                        <option value="4">Prefer not to say</option>
+                        <option value="5">Other</option>
+                    </select>
+                </label>
+            </fieldset>
+            <!--First fieldset end-->
     
+            <!--Second fieldset start-->
+            <fieldset>
+                <legend>Would you recommend freeCodeCamp to a friend</legend>
+                    <label for="choices-definitely"><input type="radio" name="user-choices" id="choices-definitely" checked> Definitely</label>
+                    <label for="choices-maybe"><input type="radio" name="user-choices" id="choices-maybe"> Maybe</label>
+                    <label for="choices-notsure"><input type="radio" name="user-choices" id="choices-notsure"> Not sure</label>
+            </fieldset>
+            <!--Second fieldset end-->
+
+            <!--Third fieldset start-->
+            <fieldset>
+                <label for="fav-dropdown">What is your favourite feature of freeCodeCamp?
+                    <select id="fav-dropdown" name="userFav-dropdown">
+                        <option value="">Select an option</option>
+                        <option value="">Challenges</option>
+                        <option value="">Project</option>
+                        <option value="">Community</option>
+                        <option value="">Open source</option>
+                    </select>
+                </label>
+            </fieldset>
+            <!--Third fieldset end-->
+
+            <!--Fourth fieldset start-->
+            <fieldset>
+                
+            </fieldset>
+            <!--Fourth fieldset end-->
+        </form>
+        <!--Survey form end-->
+    </div>
 </body>
 </html>
