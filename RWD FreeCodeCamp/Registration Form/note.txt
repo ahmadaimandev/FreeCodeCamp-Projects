@@ -15,3 +15,8 @@
       ==> Adding a dropdown to the form is easy with the select element.
       ==> select element is container for a group of option elements and the option elements
       act as a label for each dropdown option. both require closing tag.
+
+      ==> submiting a form with an option selected would not send a useful value to the server.
+      ==> each option needs to given value attribute
+      example:
+      <option value="1">This is option one</option>
