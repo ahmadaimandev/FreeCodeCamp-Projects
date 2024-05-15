@@ -27,3 +27,7 @@
       initial number of text-rows and colomns
       ==> textarea require closing tags 
       ==> You can add rows and cols attribute in textarea element.
+
+==> Tips
+      ==> Is a good practice to provide each submittable elements with a name attribute. 
+      ==> This attribute is used to identify the elements in the form submission.
