@@ -26,3 +26,4 @@
       ==> it comes with added benefit if being able to receive multi-line of text and 
       initial number of text-rows and colomns
       ==> textarea require closing tags 
+      ==> You can add rows and cols attribute in textarea element.
