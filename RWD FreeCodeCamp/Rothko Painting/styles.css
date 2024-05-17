@@ -10,3 +10,8 @@
     padding: 50px; /*Using padding to increase space between .frame and .canvas*/
     margin: 20px auto;
 }
+
+.one {
+    width: 425px;
+    height: 150px;
+}
