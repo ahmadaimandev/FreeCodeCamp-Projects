@@ -3,3 +3,7 @@
     height: 600px;
     background-color: #4d0f0f;
 }
+
+.frame {
+    border: 50px solid black;
+}
