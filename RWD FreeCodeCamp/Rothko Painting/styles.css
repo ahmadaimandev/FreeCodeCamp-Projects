@@ -5,6 +5,9 @@
     /*padding: 1px;   <-- Adding 1px of padding to the top, bottom, left and right
     of the canvas changed its dimension to 502px x 602px*/
     overflow: hidden;
+
+    /*Use this filter to make it blur*/
+    filter: blur(2px);
 }
 
 .frame {
@@ -25,7 +28,7 @@
     width: 475px;
     height: 200px;
     background-color: #8f0401;
-    margin: auto;
+    margin: 0 auto 20px;
 }
 
 .three {
