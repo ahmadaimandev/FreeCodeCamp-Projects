@@ -1,0 +1,2 @@
+CSS Box Model
+--> HTMl elements is treated as a box with for areas
