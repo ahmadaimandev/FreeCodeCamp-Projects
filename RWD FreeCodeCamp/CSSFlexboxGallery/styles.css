@@ -23,7 +23,7 @@ body {
     max-width: 350px;
     height: 300px;
     flex-direction: row;
-    /*image are distorted*/
+    /*image are distorted. use objec-fit to determine the image ratio*/
     object-fit: cover; 
 }
 
