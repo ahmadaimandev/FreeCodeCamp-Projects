@@ -19,3 +19,8 @@
 
 --> object-fit
 -> object-fit property detemine how images should behave.
+
+--> gap
+-> gap property also known as gutter between rows and columns. 
+-> gap property and its row-gap and column-gap sub properties in this functionality for flex,grid and 
+   multi-column layout

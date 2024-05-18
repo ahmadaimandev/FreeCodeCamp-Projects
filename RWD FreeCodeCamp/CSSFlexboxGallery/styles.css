@@ -16,6 +16,7 @@ body {
     padding: 20px 10px;
     max-width: 1400px;
     margin: 0 auto;
+    gap: 16px;
 }
 
 .gallery img {
@@ -25,6 +26,7 @@ body {
     flex-direction: row;
     /*image are distorted. use objec-fit to determine the image ratio*/
     object-fit: cover; 
+    border-radius: 10px;
 }
 
 .header {
