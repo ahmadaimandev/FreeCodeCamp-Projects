@@ -23,6 +23,8 @@ body {
     max-width: 350px;
     height: 300px;
     flex-direction: row;
+    /*image are distorted*/
+    object-fit: cover; 
 }
 
 .header {
