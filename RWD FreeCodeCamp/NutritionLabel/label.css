@@ -18,6 +18,8 @@ h1 {
 
 p {
     margin: 0;
+    display: flex;
+    justify-content: space-between; /*Create a horizontal line*/
 }
 
 .divider {
