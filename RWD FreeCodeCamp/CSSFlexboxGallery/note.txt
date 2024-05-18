@@ -24,3 +24,6 @@
 -> gap property also known as gutter between rows and columns. 
 -> gap property and its row-gap and column-gap sub properties in this functionality for flex,grid and 
    multi-column layout
+
+--> ::after pseudo element
+-> it creates an element that is the child of the selected element. 
