@@ -13,3 +13,12 @@ body {
     max-width: 350px;
     height: 300px;
 }
+
+.header {
+    text-align: center;
+    padding: 32px;
+    text-transform: uppercase;
+    background: #0a0a23;
+    color: #fff;
+    border-bottom: 4px solid #fdb347;
+}
