@@ -1,3 +1,6 @@
+* { /*Use global selector*/
+    box-sizing: border-box; /*Blue images now fit within red gallery border*/
+}
 .gallery {
     width: 50%;
     border: 5px solid red;
