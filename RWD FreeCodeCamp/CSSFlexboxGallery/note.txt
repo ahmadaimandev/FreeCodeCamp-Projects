@@ -1,0 +1,12 @@
+--> Flexbox
+
+-> flexbox has main and cross axis. The main axis is defined by the flex-direction property which has
+   4 possible values:
+
+   1. row (default): horizontal axis with flex items from left to right
+   2. row-reverse: horizontal axis with flex items from right to left
+   3. colomn: vertical axis with flex items from top to bottom
+   4. column-reverse: vertical axis with flex items from bottom to top
+
+   NOTE: The axes and directions with be different depending on the text direction. The values shown are 
+   for a left-to-right text direction.
