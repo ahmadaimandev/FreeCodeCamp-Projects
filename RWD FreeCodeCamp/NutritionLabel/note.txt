@@ -1,2 +1,10 @@
 -> rem stands to root em, and is relative to the font size 
 of of the html element.
+
+-> :not pseudo selector
+--> can be used to select all elements that do not match the given css rule
+example:
+div:not(#example) {
+  color: red;
+}
+The above selects all div elements without an id of example
