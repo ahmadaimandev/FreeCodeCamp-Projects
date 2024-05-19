@@ -1,0 +1,16 @@
+-> Navigation is core part of accessibility.
+-> The screen readers rely on you to provide the structure of your page.
+-> This is accomplished by semantic elements.
+
+-> Header elements will be used to introduce the page , as well as provide Navigation menu
+-> main element will contain the core content of page.
+
+-> SVG
+* A useful property SVG (Scalable Vector Graphics) is that contain a path attribute which allows the image to be scaled 
+without affecting the resolution of the image.
+
+Example Code: 
+img {
+  width: max(250px, 25vw);
+}
+explanation:
