@@ -4,6 +4,7 @@ body {
     font-family: helvetica;
     margin: 0;
 }
+
 #logo {
     width: max(100px, 18vw);
     background-color: #0a0a23;
@@ -23,12 +24,19 @@ h1 {
     font-size: min(5vw, 1.2em);
 }
 
-nav > ul {
-    display: flex;
-    justify-content: space-between;
+nav {
+    width: 50%;
+    max-width: 300px;
+    height: 50px;
 }
 
-h1, h2 {
+nav>ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1,
+h2 {
     font-family: "Verdana", sans-serif;
 }
 

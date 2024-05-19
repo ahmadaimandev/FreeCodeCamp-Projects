@@ -27,3 +27,7 @@ that match the second selector and are a direct child of the first selector.
 * role attribute can be used to indicate the purpose behind an element on the page
 to assistive technologies.
 * role attribute is part of Web Accessibility Initiative (WAI) and accepts preset values.
+
+-> Typeface
+* typeface play important role in the accessibility of a page. 
+* Some fonts are easier to read than others and this especially true on low resolutions screens.
