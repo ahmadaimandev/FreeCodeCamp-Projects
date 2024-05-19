@@ -14,3 +14,6 @@ img {
   width: max(250px, 25vw);
 }
 explanation:
+based on example, the width image will be 250px if the viewport width less than 1000 pixels,
+if the viewport width is greater that 1000 pixels, the width image will be 25vw
+this is because 25vw = 25% of the viewport width
