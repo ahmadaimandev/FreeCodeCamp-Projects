@@ -22,3 +22,8 @@ Child combinator
 -> The child combinator > is used between selectors to target only elements
 that match the second selector and are a direct child of the first selector.
 -> This can be helpful when you have deeply nested elements and want to control scope of styling.
+
+-> role attribute
+* role attribute can be used to indicate the purpose behind an element on the page
+to assistive techologies.
+* role attribute is part of Web Accessibility Initiative (WAI) and accepts preset values.
