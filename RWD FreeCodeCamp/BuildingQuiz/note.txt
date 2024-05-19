@@ -17,3 +17,8 @@ explanation:
 based on example, the width image will be 250px if the viewport width less than 1000 pixels,
 if the viewport width is greater that 1000 pixels, the width image will be 25vw
 this is because 25vw = 25% of the viewport width
+
+Child combinator
+-> The child combinator > is used between selectors to target only elements
+that match the second selector and are a direct child of the first selector.
+-> This can be helpful when you have deeply nested elements and want to control scope of styling.
