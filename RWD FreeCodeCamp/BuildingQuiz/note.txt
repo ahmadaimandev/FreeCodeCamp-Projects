@@ -37,3 +37,6 @@ to assistive technologies.
 
 -> address
 * address elements is a container for contact information for the author of the page
+
+-> br tags
+* Allow each part of the address to be on its own line and are useful for presenting address elements properly.
