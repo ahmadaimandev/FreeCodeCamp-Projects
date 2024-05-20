@@ -73,3 +73,7 @@ nav li {
     padding: 0.2rem;
     display: block;
 }
+
+ul li a {
+    color: white;
+}
