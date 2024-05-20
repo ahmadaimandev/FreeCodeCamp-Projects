@@ -43,6 +43,13 @@ nav>ul>li {
     display: block;
 }
 
+/*
+Select the list element and navigation bar
+Two ways:
+1. nav li (without comma)
+2. nav > ul > li
+*/
+
 nav>ul>li:hover {
     background-color: #dfdfe2;
     color: #1b1b32;
