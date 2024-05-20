@@ -59,3 +59,17 @@ h2 {
 p::before {
     content: "Questions #";
 }
+
+/*
+Select the list element and navigation bar
+Two ways:
+1. nav li (without comma)
+2. nav > ul > li
+*/
+
+nav li {
+    color: #dfdfe2;
+    margin: 0 0.2rem;
+    padding: 0.2rem;
+    display: block;
+}
