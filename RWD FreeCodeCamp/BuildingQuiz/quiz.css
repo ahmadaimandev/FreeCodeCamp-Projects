@@ -77,3 +77,14 @@ nav li {
 ul li a {
     color: white;
 }
+
+nav > ul > li:hover {
+    cursor: pointer;
+    background-color: #dfdfe2;
+    color: #1b1b32;
+}
+
+li > a {
+    color: inherit;
+    text-decoration: none;
+}
