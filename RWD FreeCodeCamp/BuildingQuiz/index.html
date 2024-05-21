@@ -1,174 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="freeCodeCamp Accessibility Quiz Practice Project">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/RWD FreeCodeCamp/BuildingQuiz/style.css">
-    <title>HTML/CSS/JS QUIZ</title>
+    <meta name="description" content="freeCodeCamp Accessibility Quiz practice project" />
+    <title>Accessibility Quiz</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-    <!--Header start-->
     <header>
-        <img id="logo" src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg" alt="freecodecamp_logo">
-        <h1>HTML, CSS, Javascript Quiz</h1>
+        <img id="logo" alt="freeCodeCamp" src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg">
+        <h1>HTML/CSS Quiz</h1>
         <nav>
             <ul>
-                <li><a href="">Student Info</a></li>
-                <li><a href="html-question">HTML Question</a></li> <!--call based on ID-->
-                <li><a href="#css-question">CSS Question</a></li>
+                <li><a href="#student-info">INFO</a></li>
+                <li><a href="#html-questions">HTML</a></li>
+                <li><a href="#css-questions">CSS</a></li>
             </ul>
         </nav>
     </header>
-    <!--Header end-->
-
-    <!--main start-->
     <main>
         <form method="post" action="https://freecodecamp.org/practice-project/accessibility-quiz">
-
-            <!--First section start-->
             <section role="region" aria-labelledby="student-info">
-                <h2 id="student-info">Student Information</h2>
+                <h2 id="student-info">Student Info</h2>
                 <div class="info">
-                    <label for="student-id">Student ID:</label>
-                    <input type="text" name="student-id" id="student-id" placeholder="Student ID">
+                    <label for="student-id">ID:</label>
+                    <input type="text" name="student-id" id="student-id" />
                 </div>
                 <div class="info">
                     <label for="student-name">Name:</label>
-                    <input type="text" name="student-name" id="student-name" placeholder="Enter your name">
+                    <input type="text" name="student-name" id="student-name" />
                 </div>
                 <div class="info">
                     <label for="student-email">Email:</label>
-                    <input type="email" name="student-email" id="student-email" placeholder="Enter your email">
+                    <input type="email" name="student-email" id="student-email" />
                 </div>
             </section>
-            <!--First section end-->
-
-            <!--Second section start-->
-            <section role="region" aria-labelledby="html-question">
-                <h2 id="html-question">HTML QUESTION</h2>
-                <div class="question-block"><!--HTML first question block-->
+            <section role="region" aria-labelledby="html-questions">
+                <h2 id="html-questions">HTML</h2>
+                <div class="question-block">
                     <p>1</p>
                     <fieldset class="question" name="html-question-one">
-                        <legend>HTML stands for what ?</legend>
-                        <ul class="answer-list">
+                        <legend>
+                            The legend element represents a caption for the content of its
+                            parent fieldset element
+                        </legend>
+                        <ul class="answers-list">
                             <li>
                                 <label for="q1-a1">
-                                    <input type="radio" id="q1-a1" name="q1" value="Hypertrophic Management Language">
-                                    Hypertrophic Management Language
+                                    <input type="radio" id="q1-a1" name="q1" value="true" />
+                                    True
                                 </label>
                             </li>
-
                             <li>
                                 <label for="q1-a2">
-                                    <input type="radio" id="q1-a2" name="q1" value="Hyperbaric Tertiary Logarithm">
-                                    Hyperbaric Tertiary Logarithm
-                                </label>
-                            </li>
-
-                            <li>
-                                <label for="q1-a3">
-                                    <input type="radio" id="q1-a3" name="q1" value="Hypertext Markup Language">
-                                    Hypertext Markup Language
-                                </label>
-                            </li>
-
-                            <li>
-                                <label for="q1-a4">
-                                    <input type="radio" id="q1-a4" name="q1" value="Hyperresonant Marginal Logarithm">
-                                    Hyperresonant Marginal Logarithm
+                                    <input type="radio" id="q1-a2" name="q1" value="false" />
+                                    False
                                 </label>
                             </li>
                         </ul>
-                    </fieldset> 
+                    </fieldset>
                 </div>
-
-                <div class="question-block"><!--HTML second question block-->
+                <div class="question-block">
                     <p>2</p>
                     <fieldset class="question" name="html-question-two">
-                        <legend>Every HTML document should have what ?</legend>
-                        <ul class="answer-list">
+                        <legend>
+                            A label element nesting an input element is required to have a
+                            for attribute with the same value as the input's id
+                        </legend>
+                        <ul class="answers-list">
                             <li>
                                 <label for="q2-a1">
-                                    <input type="radio" id="q2-a1" name="q2" value="A head section, and within it a title, followed by a body">
-                                    A head section, and within it a title, followed by a body
+                                    <input type="radio" id="q2-a1" name="q2" value="true" />
+                                    True
                                 </label>
                             </li>
-
                             <li>
                                 <label for="q2-a2">
-                                    <input type="radio" id="q2-a2" name="q2" value="A title section, and within it a header, followed by a body">
-                                    A title section, and within it a header, followed by a body
-                                </label>
-                            </li>
-
-                            <li>
-                                <label for="q2-a3">
-                                    <input type="radio" id="q2-a3" name="q2" value="A body and header">
-                                    A body and header
-                                </label>
-                            </li>
-
-                            <li>
-                                <label for="q2-a4">
-                                    <input type="radio" id="q2-a4" name="q2" value="None of these">
-                                    None of these
+                                    <input type="radio" id="q2-a2" name="q2" value="false" />
+                                    False
                                 </label>
                             </li>
                         </ul>
                     </fieldset>
                 </div>
             </section>
-            <!--Second section end-->
-
-            <!--Third section start-->
-            <section role="region" aria-labelledby="css-question">
-                <h2 id="css-question">CSS QUESTION</h2>
+            <section role="region" aria-labelledby="css-questions">
+                <h2 id="css-questions">CSS</h2>
                 <div class="formrow">
-                    <div class="question-block"> <!--CSS first question block-->
-                        <label for="selector">Which CSS property is used to change the background color of an element ?</label>
+                    <div class="question-block">
+                        <label for="selector">Can the CSS margin property accept negative values?</label>
                     </div>
                     <div class="answer">
                         <select name="selector" id="selector" required>
                             <option value="">Select an option</option>
-                            <option value="color">Color</option>
-                            <option value="background-color">Background Color</option>
-                            <option value="font-color">Font Color</option>
-                            <option value="bg-color">bgcolor</option>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
                         </select>
                     </div>
-                    <div class="question-block"> <!--CSS second question block-->
-                        <label for="selector">Which CSS property is used to change the text color of an element ?</label>
+                    <div class="question-block">
+                        <label for="css-textarea">Do you have any questions:</label>
                     </div>
                     <div class="answer">
-                        <select name="selector" id="selector">
-                            <option value="">Select an option</option>
-                            <option value="text-color">text-color</option>
-                            <option value="color">color</option>
-                            <option value="font-color">font-color</option>
-                            <option value="text-style">text-style</option>
-                        </select>
-                    </div>
-                    <div class="question-block"> <!--CSS third question block-->
-                        <label for="css-textarea">Write down the CSS code to center a div:</label>
-                    </div>
-                    <div class="answer">
-                        <textarea name="css-question" id="css-question" rows="5" cols="24" placeholder="Put your CSS code in here"></textarea>
+                        <textarea id="css-textarea" name="css-questions" rows="5" cols="24"
+                            placeholder="Who is flexbox..."></textarea>
                     </div>
                 </div>
             </section>
-            <!--Third section end-->
-            <button type="submit">Submit your answer</button>
+            <button type="submit">Send</button>
         </form>
     </main>
-    <!--main end-->
     <footer>
         <address>
-            <a href="">freeCodeCamp</a><br>
-            San Francisco<br>
-            California<br>
+            <a href="https://freecodecamp.org">freeCodeCamp</a><br />
+            San Francisco<br />
+            California<br />
             USA
         </address>
     </footer>
 </body>
+
 </html>
