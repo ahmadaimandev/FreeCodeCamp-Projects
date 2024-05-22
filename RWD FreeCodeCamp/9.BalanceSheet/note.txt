@@ -14,3 +14,6 @@
 -> clip and clip-path element
 * clip property is used to define the visible portions of an elements
 * clip-path property determines the shape the clip property should take
+
+->:first-of-type
+* this pseudo selector is used to target the first elements that matches the selector

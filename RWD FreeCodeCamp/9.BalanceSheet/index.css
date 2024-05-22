@@ -33,3 +33,7 @@ h1
     flex-direction: column-reverse;
     gap: 1rem;
 }
+
+h1 .flex span:first-of-type { /*target the first element that matches selector */
+    font-size: 0.7em;
+}
