@@ -1,0 +1,7 @@
+-> HTML Tables
+* html table use caption element to describe what table is about.
+* the caption element should always be the first-child of a table.
+* it can be positioned with the caption-side css property.
+
+-> thead and tbody
+* both of these are elements used to indicate which portion of tables is header and contains a primary data or content
