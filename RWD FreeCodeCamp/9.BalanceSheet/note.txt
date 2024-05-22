@@ -10,3 +10,7 @@
 * tr element indicate as table row.
 * td elements indicate as table data cell.
 * th elements indicate as table header.
+
+-> clip and clip-path element
+* clip property is used to define the visible portions of an elements
+* clip-path property determines the shape the clip property should take

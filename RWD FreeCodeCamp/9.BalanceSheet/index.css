@@ -1,0 +1,12 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    color: #0a0a32;
+}
+
+span[class~="sr-only"] { /*This selector will select any span element whose class includes sr-only*/
+    border: 0;
+}
