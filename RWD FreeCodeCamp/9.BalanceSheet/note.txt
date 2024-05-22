@@ -5,3 +5,8 @@
 
 -> thead and tbody
 * both of these are elements used to indicate which portion of tables is header and contains a primary data or content
+
+-> tr, th, td
+* tr element indicate as table row.
+* td elements indicate as table data cell.
+* th elements indicate as table header.
