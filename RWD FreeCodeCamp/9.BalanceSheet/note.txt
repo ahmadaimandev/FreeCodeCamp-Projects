@@ -35,3 +35,5 @@ in this example we can see you can use to calculate the width of the viewport mi
 * this pseudo selector is used to target all elements that do not match selector
 
 -> !important
+* this keyword to ensure these properties are always applied, regardless of order or specificity
+* this keyword also constantly double-check you are not overwriting your earlier properties
