@@ -30,3 +30,6 @@ in this example we can see you can use to calculate the width of the viewport mi
   margin: 10px;
   width: calc(100% - 20px);
 }
+
+-> :not()
+* this pseudo selector is used to target all elements that do not match selector
