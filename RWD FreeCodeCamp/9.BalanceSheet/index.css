@@ -22,7 +22,6 @@ span[class~="sr-only"] { /*This selector will select any span element whose clas
 
 h1 {
     max-width: 37.25rem;
-    background-color: red;
     margin: 0 auto;
     padding: 1.5rem 1.25rem ;
 }
@@ -40,4 +39,10 @@ h1 .flex span:first-of-type { /*target the first element that matches selector *
 
 h1 .flex span:last-of-type {
     font-size: 1.2em;
+}
+
+section {
+    max-width: 40rem;
+    margin: 0 auto;
+    border: 2px solid #d0d0d5;
 }
