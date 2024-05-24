@@ -20,3 +20,12 @@
 
 -> :last-of-type
 * This pseudo-selector does the exact opposite. it targe the last elements that matches selector
+
+-> calc()
+* calc() function allows you to calculate a value based on other values
+example:
+in this example we can see you can use to calculate the width of the viewport minus the margin of an element
+.example {
+  margin: 10px;
+  width: calc(100% - 20px);
+}
