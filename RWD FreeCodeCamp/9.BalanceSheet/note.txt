@@ -36,4 +36,7 @@ in this example we can see you can use to calculate the width of the viewport mi
 
 -> !important
 * this keyword to ensure these properties are always applied, regardless of order or specificity
-* this keyword also constantly double-check you are not overwriting your earlier properties
+* this keyword also constantly double-check you are not overwriting your earlier properties.
+
+-> [attribute="value"]
+* this selector targets any element that has an attribute with a specific value.
