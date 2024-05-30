@@ -12,7 +12,8 @@ by the top, right, bottom and left properties.
 * relative = elements still positioned according to normal flow of the document. but the value 
 top, left, bottom, and right values become active.
 
-* sticky
+* sticky = sticky positioning is a hybrid of relative and fixed positioning. it allows an element to 
+stick to a specific position within its containing element or viewport based on scroll positiion.
 
 * fixed = makes the element fixed to the page no matter where the user scrolls on to on the page.
 
