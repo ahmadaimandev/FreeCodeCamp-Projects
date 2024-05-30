@@ -1,0 +1,6 @@
+* { /*By using asterisk, it called a universal selector*/
+
+    box-sizing: border-box; 
+    /*This ensure elements include padding and border in
+    their specified width and height*/
+}
