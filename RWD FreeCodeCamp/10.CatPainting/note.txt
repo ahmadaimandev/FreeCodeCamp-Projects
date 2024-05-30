@@ -3,10 +3,18 @@
 
 2. CSS positioning
 -> in browser css allows you to position the element by using this 5 values:
-* static = default positioning all element. won't able to move it around with top, right, left or bottom
-* absolute
-* relative
+
+* static = default positioning all element. won't able to move it around with top, right, left or bottom.
+
+* absolute = the elements taken out of the normal flow of the document, and then position is determined
+by the top, right, bottom and left properties.
+
+* relative = elements still positioned according to normal flow of the document. but the value 
+top, left, bottom, and right values become active.
+
 * sticky
-* fixed
+
+* fixed = makes the element fixed to the page no matter where the user scrolls on to on the page.
+
 -> once the position is set, you can move the element around by setting a pixel or percentage values
 for one or more of the top, right, left, bottom properties.
