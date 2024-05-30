@@ -4,3 +4,7 @@
     /*This ensure elements include padding and border in
     their specified width and height*/
 }
+
+body {
+    background-color: #c9d2fc;
+}
