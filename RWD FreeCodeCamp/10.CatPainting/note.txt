@@ -19,3 +19,18 @@ stick to a specific position within its containing element or viewport based on 
 
 -> once the position is set, you can move the element around by setting a pixel or percentage values
 for one or more of the top, right, left, bottom properties.
+
+3. Transform
+-> Transform property allows you to modify the shape position, and size of an element without
+changing the layout or affecting the surrounding elements.
+
+-> transform functions
+* translate()
+* rotate()
+* scale()
+* skew()
+* matrix()
+
+4. z-index
+-> is a property you can use to define the order of overlapping HTML elements. Any elements with a
+higher z-index, will always be positioned over an element with a lower z-index.
