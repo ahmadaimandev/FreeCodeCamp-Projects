@@ -1,0 +1,9 @@
+1. box-sizing
+-> this value will reset the box model.
+
+2. pseudo-selector
+-> ::before = selector creates a pseudo-element which is the first child of the selected
+element.
+
+-> ::after = selector creates a pseudo-element which is the last of the child selected 
+element.
