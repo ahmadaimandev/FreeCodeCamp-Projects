@@ -13,3 +13,8 @@ element.
 the pseudo-elements created by the ::before and ::after pseudo-selectors are empty
 and the elements will not be rendered to the page. setting the content property to an 
 empty string "" will ensure the element is rendered to the page while still being empty.
+
+4. @media rule
+-> known as media query, used to conditionally apply css. 
+-> media queries commonly used to apply css based on the viewport width using max-width and min-width
+properties.
