@@ -7,3 +7,9 @@ element.
 
 -> ::after = selector creates a pseudo-element which is the last of the child selected 
 element.
+
+3. content
+-> this property used to set or override the content of the element. By default, 
+the pseudo-elements created by the ::before and ::after pseudo-selectors are empty
+and the elements will not be rendered to the page. setting the content property to an 
+empty string "" will ensure the element is rendered to the page while still being empty.
