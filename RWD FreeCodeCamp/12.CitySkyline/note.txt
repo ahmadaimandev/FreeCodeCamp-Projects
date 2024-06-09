@@ -1,3 +1,7 @@
 1. Variable in CSS
 - variable declaration begin with two dashes (--)
 example: --variable-name: value;
+
+How to use?
+- put the variable name in the parentheses with var in front of them like this:
+example: var(--variable-name);
