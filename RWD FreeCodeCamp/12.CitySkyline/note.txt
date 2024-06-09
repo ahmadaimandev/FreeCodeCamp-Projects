@@ -5,3 +5,7 @@ example: --variable-name: value;
 How to use?
 - put the variable name in the parentheses with var in front of them like this:
 example: var(--variable-name);
+
+2. fallback value
+- The property is use when there's a problem with the variable.
+example: var(--variable-name, fallback-value);
