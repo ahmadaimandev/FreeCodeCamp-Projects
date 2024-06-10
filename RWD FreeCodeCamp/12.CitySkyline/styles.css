@@ -19,9 +19,9 @@ body {
 .background-buildings {
     width: 100%;
     height: 100%;
-    justify-content: space-evenly;
     display: flex;
     align-items: flex-end;
+    justify-content: space-evenly;
 }
 
 .bb1 {
@@ -79,4 +79,34 @@ body {
     height: 100%;
     position: absolute;
     top: 0;
+}
+
+.fb1 {
+    width: 10%;
+    height: 60%;
+}
+
+.fb2 {
+    width: 10%;
+    height: 40%;
+}
+
+.fb3 {
+    width: 10%;
+    height: 35%;
+}
+
+.fb4 {
+    width: 8%;
+    height: 45%;
+}
+
+.fb5 {
+    width: 10%;
+    height: 33%;
+}
+
+.fb6 {
+    width: 9%;
+    height: 38%;
 }
