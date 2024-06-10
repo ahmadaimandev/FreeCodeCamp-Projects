@@ -3,7 +3,7 @@
     --building-color2: #66cc99;
     --building-color3: #cc6699;
     --building-color4: #538cc6;
-    --window-color: black;
+    --window-color1: black;
 }
 
 * {
@@ -28,8 +28,7 @@ body {
     top: 0;
 }
 
-/*BACKGROUND BUILDINGS - "bb" stands for "background building"*/
-
+/* BACKGROUND BUILDINGS - "bb" stands for "background building" */
 .bb1 {
     width: 10%;
     height: 70%;
@@ -42,6 +41,8 @@ body {
     width: 70%;
     height: 10%;
     background-color: var(--building-color1);
+    background: linear-gradient(var(--building-color1), var(--window-color1));
+
 }
 
 .bb1b {
@@ -80,7 +81,7 @@ body {
     background-color: var(--building-color4);
 }
 
-/*FOREGROUND BUILDINGS - "fb" stands for "foreground building"*/
+/* FOREGROUND BUILDINGS - "fb" stands for "foreground building" */
 .fb1 {
     width: 10%;
     height: 60%;

@@ -14,8 +14,13 @@ example: var(--variable-name, fallback-value);
 - gradient in CSS are a way to transition between color across the distance
 of an element. They are applied for the background property and 
 syntax looks like this: 
+
 example:
 gradient-type(
   color1,
   color2
 );
+
+explanation
+-> color1 is solid at the top, color2 is solid at the bottom,
+-> and in between it transitions evenly from one to the next
