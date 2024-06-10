@@ -9,3 +9,13 @@ example: var(--variable-name);
 2. fallback value
 - The property is use when there's a problem with the variable.
 example: var(--variable-name, fallback-value);
+
+3. CSS gradient
+- gradient in CSS are a way to transition between color across the distance
+of an element. They are applied for the background property and 
+syntax looks like this: 
+example:
+gradient-type(
+  color1,
+  color2
+);
