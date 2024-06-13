@@ -24,3 +24,13 @@ gradient-type(
 explanation
 -> color1 is solid at the top, color2 is solid at the bottom,
 -> and in between it transitions evenly from one to the next
+
+- Gradient can use as many colors as you want:
+
+example:
+gradient-type(
+  color1,
+  color2,
+  color3
+);
+
