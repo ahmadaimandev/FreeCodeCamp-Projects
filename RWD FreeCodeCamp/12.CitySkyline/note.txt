@@ -59,4 +59,12 @@ linear-gradient(
   var(--second-color) 80%
 );
 
-3.1 repeating-linear-gradient
+- You can specify another direction by adding it before your colors like this:
+
+example
+
+gradient-type(
+  direction,
+  color1,
+  color2
+);
