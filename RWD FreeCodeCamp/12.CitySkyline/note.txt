@@ -68,3 +68,6 @@ gradient-type(
   color1,
   color2
 );
+
+
+adding multiple color
