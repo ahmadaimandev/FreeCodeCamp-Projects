@@ -70,4 +70,12 @@ gradient-type(
 );
 
 
-adding multiple color
+You can add multiple gradient to an element by separating them with a comma (,)
+
+example:
+gradient1(
+  colors
+),
+gradient2(
+  colors
+);
