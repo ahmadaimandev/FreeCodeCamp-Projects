@@ -138,6 +138,10 @@ body {
     height: 60%;
 }
 
+.fb1a {
+    border-bottom: 7vh solid var(--building-color4);
+}
+
 .fb1b {
     width: 60%;
     height: 10%;
@@ -153,6 +157,12 @@ body {
         var(--building-color4) 10%,
         transparent 10%,
         transparent 15%
+    ),
+    repeating-linear-gradient(
+        var(--building-color4) 0%,
+        var(--building-color4) 10%,
+        var(--window-color4) 10%,
+        var(--window-color4) 90%
     );
     
 }
