@@ -44,11 +44,10 @@ body {
 
 .sky {
     background: radial-gradient(circle closest-corner at 15% 15%,
-        #ffcf33 0%,
-        #ffcf33 20%,
-        #ffff66 21%,
-        #bbeeff 100%
-    );
+            #ffcf33 0%,
+            #ffcf33 20%,
+            #ffff66 21%,
+            #bbeeff 100%);
 }
 
 /* BACKGROUND BUILDINGS - "bb" stands for "background building" */
@@ -252,38 +251,48 @@ body {
     height: 33%;
     position: relative;
     right: 10%;
-    background: repeating-linear-gradient(
-        var(--building-color2) 0%,
-        var(--building-color2) 5%,
-        transparent 5%,
-        transparent 10%),
-        repeating-linear-gradient(
-            90deg,
+    background: repeating-linear-gradient(var(--building-color2) 0%,
+            var(--building-color2) 5%,
+            transparent 5%,
+            transparent 10%),
+        repeating-linear-gradient(90deg,
             var(--building-color2) 0%,
             var(--building-color2) 12%,
             var(--window-color2) 12%,
-            var(--window-color2) 44%
-        );
+            var(--window-color2) 44%);
 }
 
 .fb6 {
     width: 9%;
     height: 38%;
-    background: repeating-linear-gradient(
-        90deg,
-        var(--building-color3) 0%,
-        var(--building-color3) 10%,
-        transparent 10%,
-        transparent 30%),
-        repeating-linear-gradient(
+    background: repeating-linear-gradient(90deg,
             var(--building-color3) 0%,
             var(--building-color3) 10%,
+            transparent 10%,
+            transparent 30%),
+        repeating-linear-gradient(var(--building-color3) 0%,
+            var(--building-color3) 10%,
             var(--window-color3) 10%,
-            var(--window-color3) 30%
-        );
+            var(--window-color3) 30%);
 }
 
 /*Media Queries*/
 @media (max-width: 1000px) {
-    
+    :root {
+        --building-color1: #000;
+        --building-color2: #000;
+        --building-color3: #000;
+        --building-color4: #000;
+        --window-color1: #777;
+        --window-color2: #777;
+        --window-color3: #777;
+        --window-color4: #777;
+    }
+    .sky {
+        background: radial-gradient(closest-corner circle at 15% 15%,
+                #ccc,
+                #ccc 20%,
+                #445 21%,
+                #223 100%);
+    }
 }
