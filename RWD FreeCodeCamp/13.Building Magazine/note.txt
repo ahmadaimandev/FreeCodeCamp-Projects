@@ -9,3 +9,7 @@ this means users with slow internet connection can view the content of your page
 Referrer
 -> The Referrer HTTP header contains information about the address or URL of a page that a user might be visiting from.
 -> This information can be used in analytic to track how many users from your page.
+
+Grid Layout
+-> CSS grid offer two-dimensional grid based layout. Allowing you to center items
+horizontally and vertically while still retaining control to do things like overlap elements.
