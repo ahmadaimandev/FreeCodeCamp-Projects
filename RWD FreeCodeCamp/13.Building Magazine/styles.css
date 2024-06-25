@@ -33,5 +33,12 @@ a {
 
 main {
     display: grid;
-    grid-template-columns: 1fr 94rem 1fr;
+    grid-template-columns: minmax(2rem, 1fr) minmax(min-content, 94rem) minmax(2rem, 1fr);
+    /*
+    explanation
+    By using grid-template-column, we can set the column space
+    In this case, we set the value 1fr 94rem 1fr.
+    this will create three columns where the middle column is 94rem wide,
+    and the first and last columns are both 1 fraction of the remaining space in the grid container.
+    */
 }

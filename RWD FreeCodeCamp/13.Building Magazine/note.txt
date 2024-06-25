@@ -13,3 +13,12 @@ Referrer
 Grid Layout
 -> CSS grid offer two-dimensional grid based layout. Allowing you to center items
 horizontally and vertically while still retaining control to do things like overlap elements.
+
+-> CSS grid similar to flexbox in that it has a special property for both the parent and child elements.
+
+minmax function
+-> minmax function allows your columns responsive on any device.
+-> minmax takes two arguments
+1. First is being the minimum value
+2. Second is maximum value
+3. This value could be a length, percentage, fr or even keyword like max-content.
