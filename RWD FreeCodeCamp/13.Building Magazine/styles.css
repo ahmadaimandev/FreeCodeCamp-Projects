@@ -1,4 +1,6 @@
-*,::before, ::after {
+*,
+::before,
+::after {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -9,13 +11,13 @@ html {
 }
 
 body {
-    font-family: Baskervville, serif;
+    font-family: 'Baskervville', serif;
     color: linen;
-    background-color: rgb(20,30,40);
+    background-color: rgb(20, 30, 40);
 }
 
 h1 {
-    font-family: Anton, sans-serif;
+    font-family: 'Anton', sans-serif;
 }
 
 h2,
@@ -23,7 +25,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Raleway, sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 a {
@@ -31,9 +33,11 @@ a {
     color: linen;
 }
 
+
 main {
     display: grid;
     grid-template-columns: minmax(2rem, 1fr) minmax(min-content, 94rem) minmax(2rem, 1fr);
+    row-gap: 3rem;
     /*
     explanation
     By using grid-template-column, we can set the column space
@@ -41,4 +45,37 @@ main {
     this will create three columns where the middle column is 94rem wide,
     and the first and last columns are both 1 fraction of the remaining space in the grid container.
     */
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.heading {
+    grid-column: 2 / 3;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 1.5rem;
+}
+
+.text {
+    grid-column: 2 / 3;
+}
+
+.hero {
+    grid-column: 1 / -1;
+    position: relative;
+}
+
+.hero-title {
+    text-align: center;
+    color: orangered;
+    font-size: 8rem;
+}
+
+.hero-subtitle {
+    font-size: 2.4rem;
+    color: orangered;
+    text-align: center;
 }
