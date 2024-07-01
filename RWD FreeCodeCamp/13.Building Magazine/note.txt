@@ -22,3 +22,5 @@ minmax function
 1. First is being the minimum value
 2. Second is maximum value
 3. This value could be a length, percentage, fr or even keyword like max-content.
+
+
