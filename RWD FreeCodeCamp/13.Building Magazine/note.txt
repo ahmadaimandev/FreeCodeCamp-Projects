@@ -24,3 +24,9 @@ minmax function
 3. This value could be a length, percentage, fr or even keyword like max-content.
 
 
+place-items
+-> this property can be used to set the align-items and justify-items value at the same time.
+-> This property takes one or two values.
+-> if one value is provided, it is used for both the align-items and justify-items
+-> if two values are provided, the first value is used for the align-items property and the second value is used for the justify-items
+
