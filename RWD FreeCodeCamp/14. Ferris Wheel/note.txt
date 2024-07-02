@@ -1,0 +1,2 @@
+transform-origin
+-> this property is used to set the point around which CSS transformation is applied.
