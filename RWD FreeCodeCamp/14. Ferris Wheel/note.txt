@@ -1,2 +1,6 @@
 transform-origin
 -> this property is used to set the point around which CSS transformation is applied.
+
+@keyframes
+-> To define the flow of a css animation. Within the @keyframes rule, you can create a selectors for a specific points
+in the animation sequence, such as 0% or 25%, or use from and to, to define the start and end of the sequence.
