@@ -17,4 +17,4 @@ animation-iteration-count
 -> This property sets how many times your animation should repeat.
 
 animation-timing-function
--> 
+-> Property used how to set animation should progress over time.
