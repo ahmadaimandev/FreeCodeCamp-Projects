@@ -1,2 +1,6 @@
 Remove vertical and horizontal scrollbar
 -> used overflow: hidden property
+
+skew function
+-> Takes two argument. the first being angle to shear the x-axis by,
+and the second being an angle to shear the y-axis.
