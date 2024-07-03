@@ -1,0 +1,2 @@
+Remove vertical and horizontal scrollbar
+-> used overflow: hidden property
