@@ -118,6 +118,14 @@ body {
 
 }
 
+.blush {
+    width: 15%;
+    height: 10%;
+    background-color: pink;
+    top: 65%;
+    border-radius: 50%;
+}
+
 .penguin-body {
     width: 53%;
     height: 45%;
