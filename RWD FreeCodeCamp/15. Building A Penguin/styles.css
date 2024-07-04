@@ -11,27 +11,47 @@ body {
     overflow: hidden;
 }
 
-.ground {
-    width: 100vw;
-    height: 400px;
-    background: linear-gradient(90deg, rgb(88, 175, 236), rgb(182, 255, 255));
-    z-index: 3;
+.left-mountain {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(rgb(203, 241, 228), rgb(80, 183, 255));
     position: absolute;
-    margin-top: -58px;
+    transform: skew(0deg, 44deg);
+    z-index: 2;
+    margin-top: 100px;
 }
 
-/*Penguin part start*/
+.back-mountain {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(rgb(203, 241, 228), rgb(47, 170, 255));
+    position: absolute;
+    z-index: 1;
+    transform: rotate(45deg);
+    left: 110px;
+    top: 225px;
+}
+
+.sun {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    position: absolute;
+    border-radius: 50%;
+    top: -75px;
+    right: -75px;
+}
+
 .penguin {
     width: 300px;
     height: 300px;
-    margin: 0 auto;
+    margin: auto;
     margin-top: 75px;
     z-index: 4;
     position: relative;
 }
 
 .penguin * {
-    /*add asterisk to select all the descendant*/
     position: absolute;
 }
 
@@ -44,6 +64,7 @@ body {
     border-radius: 70% 70% 65% 65%;
     top: 10%;
     left: 25%;
+    z-index: 1;
 }
 
 .face {
@@ -66,9 +87,25 @@ body {
     width: 90%;
     height: 70%;
     background-color: var(--penguin-face);
-    left: 5%;
     top: 25%;
+    left: 5%;
     border-radius: 70% 70% 100% 100%;
+}
+
+.eye {
+    width: 15%;
+    height: 17%;
+    background-color: black;
+    top: 45%;
+    border-radius: 50%;
+}
+
+.eye.left {
+    left: 25%;
+}
+
+.eye.right {
+    right: 25%;
 }
 
 .penguin-body {
@@ -81,7 +118,6 @@ body {
     border-radius: 80% 80% 100% 100%;
     top: 40%;
     left: 23.5%;
-    z-index: 1;
 }
 
 .penguin-body::before {
@@ -96,35 +132,11 @@ body {
     opacity: 70%;
 }
 
-/*Penguin part start*/
-
-.left-mountain {
-    width: 300px;
-    height: 300px;
-    background: linear-gradient(rgb(203, 241, 228), rgb(80, 183, 255));
+.ground {
+    width: 100vw;
+    height: 400px;
+    background: linear-gradient(90deg, rgb(88, 175, 236), rgb(182, 255, 255));
+    z-index: 3;
     position: absolute;
-    transform: skew(0deg, 44deg);
-    z-index: 0;
-    margin-top: 100px;
-}
-
-.back-mountain {
-    width: 300px;
-    height: 300px;
-    background: linear-gradient(rgb(203, 241, 228), rgb(47, 170, 255));
-    position: absolute;
-    z-index: 1;
-    transform: rotate(45deg);
-    left: 110px;
-    top: 225px;
-}
-
-.sun {
-    height: 200px;
-    width: 200px;
-    background-color: yellow;
-    position: absolute;
-    border-radius: 50%;
-    top: -75px;
-    right: -75px;
+    margin-top: -58px;
 }
